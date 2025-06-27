@@ -1,0 +1,37 @@
+{
+  "name": "every-gmail-username",
+  "version": "1.0.0",
+  "homepage": "https://solst-ice.github.io/every-gmail-username/",
+  "description": "A searchable list of every possible Gmail username, just in case you need to look one up",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predev": "rimraf .parcel-cache dist",
+    "dev": "parcel public/index.html",
+    "prebuild": "rimraf .parcel-cache dist",
+    "build": "parcel build public/index.html --public-url ./",
+    "new-component": "new-component"
+  },
+  "keywords": [],
+  "author": "solst/ice",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "new-component": "^5.0.3",
+    "parcel": "^2.13.2",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "prettier": "^3.4.1",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10",
+    "styled-components": "^6.1.13"
+  },
+  "browserslist": ">0.3%, defaults, supports es6-module",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "rimraf": "^6.0.1"
+  }
+}
