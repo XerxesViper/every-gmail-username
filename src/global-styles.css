@@ -63,7 +63,7 @@ body {
   --border-color: var(--slate-400);
   --username-color: var(--neutral-900);
 
-  background-color: var(--slate-300);
+  background-color: var(--background-color);
 }
 img,
 picture,
@@ -91,4 +91,8 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+:root {
+  --background-color: #f5f5f5;
 }
