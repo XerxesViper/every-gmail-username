@@ -131,15 +131,15 @@ function Header() {
       </TitleSubhead>
       <SelfPromotion>
         <Socials>
-          <SocialLink href="https://github.com/solst-ice/every-gmail-username">
+          <SocialLink href="https://github.com/XerxesViper/every-gmail-username">
             <Help />
           </SocialLink>
-          <SocialLink href="https://twitter.com/IceSolst">
+          <SocialLink href="https://twitter.com/XerxesViper">
             <Twitter />
           </SocialLink>
         </Socials>
         <p>
-          Forked by <Link href="https://twitter.com/IceSolst">solst/ice</Link> from <Link href="https://eieio.games">eieio</Link>
+          Forked by <Link href="https://twitter.com/XerxesViper">XerxesViper</Link> from <Link href="https://twitter.com/IceSolst">solst/ice</Link> and <Link href="https://eieio.games">eieio</Link>
         </p>
       </SelfPromotion>
     </Wrapper>

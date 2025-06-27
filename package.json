@@ -1,7 +1,7 @@
 {
   "name": "every-gmail-username",
   "version": "1.0.0",
-  "homepage": "https://solst-ice.github.io/every-gmail-username/",
+  "homepage": "https://every-gmail.xerxesviper.fyi/",
   "description": "A searchable list of every possible Gmail username, just in case you need to look one up",
   "scripts": {
     "predeploy": "npm run build",
@@ -14,7 +14,7 @@
     "new-component": "new-component"
   },
   "keywords": [],
-  "author": "solst/ice",
+  "author": "XerxesViper",
   "license": "ISC",
   "dependencies": {
     "eslint": "^8.57.1",
